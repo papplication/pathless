@@ -154,12 +154,14 @@ init();
 anim();
 
 var oldHeight = window.innerHeight;
+var oldWidth = window.innerWidth;
 
 window.addEventListener( 'resize', function() {
   
-  if ( Math.abs( window.innerHeight - oldHeight ) >= 150 ) {
+  if ( Math.abs( window.innerHeight - oldHeight ) >= 100 ||  Math.abs( window.innerWidth - oldWidth ) >= 100) {
     w = c.width = window.innerWidth;
     h = c.height = window.innerHeight;
+    oldWidth = w;
     oldHeight = h;
     starter.x = w / 2;
     starter.y = h / 2;

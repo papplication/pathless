@@ -12,6 +12,8 @@ canvas {
   top: 0;
   left: 0;
   background-color: black;
+  height: 110%;
+  width: 110%;
 }
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section 
 {
@@ -639,9 +641,4 @@ body
   left: -7px;
   top: -7px;
   right: -7px;
-}
-/*preload*/
-#preload
-{
-	background: url(../images/mobile0.jpg), url(../images/mobile1.jpg), url(../images/mobile2.jpg), url(../images/mobile3.jpg), url(../images/mobile4.jpg), url(../images/mobile5.jpg);
 }
