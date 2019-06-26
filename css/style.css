@@ -85,7 +85,7 @@ body
 }
 .supp-blog-btns ul li a.blog,.supp-blog-btns ul li a.support
 {
-	color: #FFF;
+	color: #FFFFF0;
 }
 .supp-blog-btns ul li a.blog:hover,.supp-blog-btns ul li a.support:hover
 {
@@ -537,7 +537,6 @@ body
 	}
 	.buttom 
 	{
-		background: #009989;
 		padding: 2em 0em 2em 0em;
 	}
 	.top-grid h3 a 
