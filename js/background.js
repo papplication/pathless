@@ -160,5 +160,5 @@ window.addEventListener( 'resize', function() {
   starter.x = w / 2;
   starter.y = h / 2;
   
-  init();
+  //init();
 } )
