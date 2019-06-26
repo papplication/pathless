@@ -157,9 +157,10 @@ var oldHeight = window.innerHeight;
 
 window.addEventListener( 'resize', function() {
   
-  if ( Math.abs( window.innerHeight - oldHeight ) >= 300 ) {
+  if ( Math.abs( window.innerHeight - oldHeight ) >= 150 ) {
     w = c.width = window.innerWidth;
     h = c.height = window.innerHeight;
+    oldHeight = h;
     starter.x = w / 2;
     starter.y = h / 2;
   
