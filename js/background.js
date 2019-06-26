@@ -153,12 +153,16 @@ Line.prototype.step = function() {
 init();
 anim();
 
+var oldHeight = window.innerHeight;
+
 window.addEventListener( 'resize', function() {
   
-  w = c.width = window.innerWidth;
-  h = c.height = window.innerHeight;
-  starter.x = w / 2;
-  starter.y = h / 2;
+  if ( Math.abs( window.innerHeight - oldWidth ) >= 100 ) {
+    w = c.width = window.innerWidth;
+    h = c.height = window.innerHeight;
+    starter.x = w / 2;
+    starter.y = h / 2;
   
-  init();
+    init();
+  }
 } )
