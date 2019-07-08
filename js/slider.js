@@ -1,13 +1,9 @@
-var slideIndex = 0;
-showSlides();
+showMockup();
 
-function showSlides() {
-    var i;
-    if (slideIndex > 0) {
-		slideIndex = 0;
-    }
+function showMockup() {
     var slide = document.getElementById("mobilec");
-    slide.style.backgroundImage = "url('images/mobile"+slideIndex+".png')";
-    slideIndex++;
-    //setTimeout(showSlides, 2000);
+    slide.style.backgroundImage = "url('images/mobile0.png')";
+
+    var bck = document.getElementById("mobilec-back");
+    bck.style.backgroundImage = "url('images/ingame.png')";
 }
